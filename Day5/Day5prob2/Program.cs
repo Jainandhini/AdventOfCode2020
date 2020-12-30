@@ -11,7 +11,7 @@ namespace Day5problem2
             Console.WriteLine("Hello World!-5.1");
             Program ps=new Program();            
             var seatId=ps.CalculateSeatId();
-            System.Console.WriteLine($"Final max seat ID: {seatId}"); //230
+            System.Console.WriteLine($"Final max seat ID: {seatId}"); //678
         }
         int CalculateSeatId(){
             var path=@".\input.txt";
